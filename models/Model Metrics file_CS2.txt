@@ -1,0 +1,34 @@
+﻿Model Metrics file
+Purpose of modeling activities
+Predict diamond prices.
+Data needed and/or available:
+Most recent industry priced diamond data.
+Data Timeframe:
+01/01/2021–11/02/2021
+Modeling Response:
+Prediction - actual result from model = accuracy
+Type of Model:
+Regression Model
+What Deliverables will be generated:
+* PDF outlining modeling process from data exploration to best model results
+* Model Metrics File detailing the model and its scope
+Data Preprocessing steps of note
+* Dropped duplicate rows
+* Created data definitions
+* Updated column names
+* Dealt with missing values
+Model Description
+* Input data size = 53940 observations
+* Total features = 10
+* Model Algorithms and Parameters:
+   * Ordinary Least Squares (OLS)
+   * Ridge Regression Model
+   * Lasso Regression Model
+________________
+Model Performance
+* R², RMSE, Confusion Matrix, Precision & Recall, AUC/ROC
+Model Findings
+* Feature Importances include Price which was the best target feature for the data
+Next Steps
+* The Lasso Regression Model showed the best performance with a balanced complexity for the data
+* New hyperparameters were tested and different modeling methods chosen
