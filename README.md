@@ -1,4 +1,4 @@
-diamond_pricing_system
+Diamond Pricing Prediction Model
 ==============================
 
 The purpose of this data science project is to come up with a pricing model for diamonds in the diamond market. This project aims to build a predictive model for diamond price based on a number of features/properties of industry standard diamonds. This model will be used to provide guidance for diamond pricing and future value investment plans.
